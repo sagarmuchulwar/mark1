@@ -1,0 +1,22 @@
+library(knitr)
+library(markdown)
+
+# R language de in github
+
+```{r}
+
+a<-23
+b<-55
+c<-a+b
+print(c)
+
+head(iris)
+
+tail(iris)
+
+## Iris Charts
+
+
+plot(iris, col=1:3);
+
+'''
